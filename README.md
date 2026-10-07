@@ -1,5 +1,11 @@
 # Northern Crown MWPD v0.4.0
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23222214.svg)](https://doi.org/10.5281/zenodo.23222214)
 
+## Citation
+
+Zenodo DOI for this public release: **10.5281/zenodo.23222214**
+
+If you use Northern Crown MWPD, please cite the Zenodo software record together with the validation material shipped in this repository. See [CITATION.cff](CITATION.cff).
 Northern Crown MWPD is a multiscale persistent spatial-structure detector for 3-D catalogues. This public release packages the **byte-preserved Northern Crown v0.4-RC1 scientific payload** behind a small Python API and CLI.
 
 ## Validation status
