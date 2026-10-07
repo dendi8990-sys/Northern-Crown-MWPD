@@ -101,3 +101,10 @@ BSD-3-Clause. See [LICENSE](LICENSE).
 ## Public documentation language
 
 The public repository, command-line help, release notes, reproducibility instructions, and official-server acceptance materials are maintained in **English**. Historical internal archives may contain other languages, but they are not part of the public working tree.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23222214.svg)](https://doi.org/10.5281/zenodo.23222214)
+
+## Citation
+
+Zenodo DOI for this public release: **10.5281/zenodo.23222214**
+
+If you use Northern Crown MWPD, please cite the Zenodo software record together with the validation material shipped in this repository. See [CITATION.cff](CITATION.cff).
