@@ -1,0 +1,68 @@
+{
+  "record_id": "NORTHERN_CROWN_V04_RC1_PROMOTION_2026-10-02",
+  "date": "2026-10-02",
+  "method": "NORTHERN_CROWN_v0.4-RC1",
+  "previous_status": "METHOD_FROZEN_PENDING_UNSEEN_VALIDATION",
+  "promotion_status": "V04_RC1_VALIDATED_ON_PREREGISTERED_ABACUS_BATCH6",
+  "scope": "Validated for the frozen v0.4-RC1 candidate-identity/null-portability/topology-transfer gates on the preregistered Abacus Batch-6. Not direct filament truth and not universal cross-domain validation.",
+  "promotion_basis": {
+    "family": "AbacusSummit",
+    "targets": 6,
+    "target_pass": 6,
+    "determinism_pass": 6,
+    "identity_pass": 6,
+    "heldout_null_QA_pass": 6,
+    "benchmark_pass": 6,
+    "topology_pass": 6,
+    "positive_DROP20_seeds": 30,
+    "positive_DROP20_seeds_total": 30,
+    "topology_sufficient_arms": 156,
+    "topology_stress_arms_total": 156,
+    "frozen_before_science": true,
+    "science_output_inspected_for_selection": false,
+    "no_tuning_between_targets": true
+  },
+  "supplementary_TNG_revalidation": {
+    "classification": "SUPPLEMENTARY_SEEN_OR_OVERLAPPING_REVALIDATION_NOT_PROMOTION_EVIDENCE",
+    "reason": "The TNG outer package retains BATCH6_UNSEEN_PROTOCOL_TEMPLATE with TARGETS_NOT_YET_FROZEN, and the run uses simulations from the historical TNG evidence family. It is retained as strong cross-resolution/hydro-DMO revalidation, not as the preregistered unseen promotion batch.",
+    "targets": 6,
+    "target_pass": 6,
+    "identity_pass": 6,
+    "heldout_null_QA_pass": 6,
+    "benchmark_pass": 6,
+    "topology_pass": 6,
+    "positive_DROP20_seeds": 30,
+    "positive_DROP20_seeds_total": 30,
+    "topology_sufficient_arms": 156,
+    "topology_stress_arms_total": 156
+  },
+  "combined_computational_result": {
+    "targets_pass": 12,
+    "targets_total": 12,
+    "positive_DROP20_seeds": 60,
+    "positive_DROP20_seeds_total": 60,
+    "heldout_null_QA_pass": 12,
+    "benchmark_pass": 12,
+    "topology_pass": 12,
+    "topology_sufficient_arms": 312,
+    "topology_stress_arms_total": 312
+  },
+  "integrity": {
+    "abacus_outer_sha256": "6cd2da38db8c963f508c0de99b9ebbe73048c6a8213d98ad0725b9ad94488da8",
+    "tng_outer_sha256": "5cddeaf7dbe9741a84a54337b81e76437299d529a50dc4226ceb13111b99e7c4",
+    "abacus_outer_crc": "PASS",
+    "tng_outer_crc": "PASS",
+    "all_12_nested_target_zip_crc": "PASS",
+    "all_12_nested_sha_match_receipts": true,
+    "split_parts_sha_verified": true
+  },
+  "claim_boundaries": "TRUTH03 is separate; v0.4 validation must not claim direct filament truth from T_env64 transfer alone.",
+  "historical_status_preserved": {
+    "v2": "PARTIAL",
+    "v0.3_campaign": "FAIL",
+    "TNG16_v0.3": "FAIL",
+    "PH019_v0.3": "PASS",
+    "TNG17_BIG_R2": "PASS_DIAGNOSTIC"
+  },
+  "next_rule": "Any scientific method change after this promotion opens a new development branch/version and requires new unseen validation."
+}

@@ -1,0 +1,9 @@
+{
+  "campaign": "TRUTH03A",
+  "core_sha256": "7a6457862230def5ea5279487882c8faeeee5e4adb42bf88c95f3db80fc5e206",
+  "created_utc": "2026-10-05T19:34:20Z",
+  "package_version": "NORTHERN_CROWN_TRUTH03A_RUNNER_V1_7_2026-10-05",
+  "preregistration_sha256": "6b65725127c76c97ee76f36c1e90a7c8dd19396f3a627d84b292222312faca64",
+  "primary_result_sha256": "6048e63e851aa1d3ba2a3a5783151b10f24413dbf13983bf9300ca95643851be",
+  "run_contract_sha256": "d1570ef1a873f63378ac0b2819fed80915cfcf97afe22b624f4bf35c59b27c90"
+}

@@ -1,0 +1,26 @@
+{
+  "machine": "x86_64",
+  "modules": {
+    "asdf": {
+      "available": true,
+      "version": "5.3.1"
+    },
+    "h5py": {
+      "available": true,
+      "version": "3.16.0"
+    },
+    "numpy": {
+      "available": true,
+      "version": "2.2.6"
+    },
+    "scipy": {
+      "available": true,
+      "version": "1.15.3"
+    }
+  },
+  "platform": "Linux-5.14.0-687.49.1.el9_8.x86_64-x86_64-with-glibc2.35",
+  "privacy_note": "hostname, cwd, account identifiers, and uname host string omitted from public evidence",
+  "python": "3.10.14 | packaged by conda-forge | (main, Mar 20 2024, 12:45:18) [GCC 12.3.0]",
+  "python_executable_basename": "python3",
+  "target": "abacus"
+}

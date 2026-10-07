@@ -1,0 +1,92 @@
+{
+  "campaign": "TRUTH03A",
+  "campaign_PASS": false,
+  "created_utc": "2026-10-05T19:34:20Z",
+  "family_alpha": 0.05,
+  "interpretation_boundary": "PASS supports tested DisPerSE-filament proximity enrichment only; no exact Crown=DisPerSE equivalence, universal web taxonomy, superiority, or temporal material persistence claim.",
+  "multiplicity": "Holm-Bonferroni across exactly 3 targets",
+  "primary_results": [
+    {
+      "T_obs_median_Mpc_h": 125.55120391795589,
+      "campaign": "TRUTH03A",
+      "candidate_count": 11759,
+      "distances_sha256": "53e5b81f58a9be4254870123d41e70287a566c3ee86a55148540e9752e66c22a",
+      "effect_direction_pass": true,
+      "fractions_within_Mpc_h": {
+        "0.5": 0.0003401649800153074,
+        "1.0": 0.0010204949400459222,
+        "2.0": 0.004422144740198996,
+        "5.0": 0.020835105025937578
+      },
+      "holm_adjusted_p": 0.046153846153846156,
+      "null_median_Mpc_h": 127.16349742039264,
+      "null_seconds": 24.82627248764038,
+      "observed_seconds": 0.5037755966186523,
+      "q25_Mpc_h": 78.9179094715885,
+      "q75_Mpc_h": 180.06988372236205,
+      "raw_p": 0.015384615384615385,
+      "redshift": 0.5,
+      "run_contract_sha256": "d1570ef1a873f63378ac0b2819fed80915cfcf97afe22b624f4bf35c59b27c90",
+      "segment_count": 21177,
+      "simulation": "AbacusSummit_base_c117_ph000",
+      "sufficient": true,
+      "target_PASS": true
+    },
+    {
+      "T_obs_median_Mpc_h": 129.09710605458093,
+      "campaign": "TRUTH03A",
+      "candidate_count": 11751,
+      "distances_sha256": "3702d4d0cc8093c45272d30cb5b6a6dab284b1c67b3b7bc72d1b5ea6130bc6a7",
+      "effect_direction_pass": true,
+      "fractions_within_Mpc_h": {
+        "0.5": 0.00017019828099736192,
+        "1.0": 0.0012764871074802144,
+        "2.0": 0.004850651008424815,
+        "5.0": 0.018636711769211133
+      },
+      "holm_adjusted_p": 0.046153846153846156,
+      "null_median_Mpc_h": 130.6414983500035,
+      "null_seconds": 20.411680459976196,
+      "observed_seconds": 0.4443964958190918,
+      "q25_Mpc_h": 80.34509402983053,
+      "q75_Mpc_h": 188.54103227683532,
+      "raw_p": 0.015384615384615385,
+      "redshift": 0.5,
+      "run_contract_sha256": "d1570ef1a873f63378ac0b2819fed80915cfcf97afe22b624f4bf35c59b27c90",
+      "segment_count": 16905,
+      "simulation": "AbacusSummit_base_c000_ph015",
+      "sufficient": true,
+      "target_PASS": true
+    },
+    {
+      "T_obs_median_Mpc_h": 110.5668596714635,
+      "campaign": "TRUTH03A",
+      "candidate_count": 1497,
+      "distances_sha256": "15ebaffb18f6b5416ea79a3e3e23115e262515507822ae7dc282d3e83624ab4d",
+      "effect_direction_pass": true,
+      "fractions_within_Mpc_h": {
+        "0.5": 0.0,
+        "1.0": 0.0026720106880427524,
+        "2.0": 0.008684034736138945,
+        "5.0": 0.03072812291249165
+      },
+      "holm_adjusted_p": 0.15384615384615385,
+      "null_median_Mpc_h": 112.68596343305879,
+      "null_seconds": 2.4400088787078857,
+      "observed_seconds": 0.16352248191833496,
+      "q25_Mpc_h": 64.4493274125108,
+      "q75_Mpc_h": 159.50557189022058,
+      "raw_p": 0.15384615384615385,
+      "redshift": 0.5,
+      "run_contract_sha256": "d1570ef1a873f63378ac0b2819fed80915cfcf97afe22b624f4bf35c59b27c90",
+      "segment_count": 2396,
+      "simulation": "AbacusSummit_highbase_c000_ph100",
+      "sufficient": true,
+      "target_PASS": false
+    }
+  ],
+  "protocol_id": "NC_TRUTH03A_V1_1_DISPERSE3",
+  "status": "FAIL",
+  "target_pass_count": 2,
+  "target_total": 3
+}

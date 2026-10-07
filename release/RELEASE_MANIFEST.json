@@ -1,0 +1,46 @@
+{
+  "ai_assistance": "ChatGPT (OpenAI), acknowledged as research/software-engineering assistant; not a human author",
+  "author": "Vlad",
+  "claim_boundary": "No direct filament truth, universal cosmic-web taxonomy, universal superiority, or temporal material persistence claim.",
+  "formal_validation": {
+    "Abacus_Batch6": "6/6 PASS"
+  },
+  "frozen_hashes": {
+    "PB2_V2E2_IDCANON_detector_impl.py": "7a6457862230def5ea5279487882c8faeeee5e4adb42bf88c95f3db80fc5e206",
+    "ZR_GLOBAL_REFERENCE_V01.npz": "3b6f040b2c62742401b0862a062ea263896a6bb8f96d0946b8abc50c477be78a",
+    "topology_env_v0_1_rc1.py": "00c31925b0736a6fd28e036f9bd2acdb7b3639de73194947d85aa864db4ff679",
+    "zr_v0_3_rc1.py": "635575247a218fab690dbe05b5290ca05c4c3ba4f0668c9a3d90418353e5d0d2",
+    "zsep_v0_3_rc1.py": "dc5d37c4b6eb38f139d646b78f016e050d04f6d7038c16e522ce4d072c9489a4"
+  },
+  "license": "BSD-3-Clause",
+  "negative_results": {
+    "PERSIST01": "FAIL",
+    "TRUTH03A": "FAIL 2/3 (campaign gate 3/3)"
+  },
+  "official_server_acceptance_harness": {
+    "asset": "NORTHERN_CROWN_V040_OFFICIAL_SERVER_ACCEPTANCE_V5_2026-10-07.zip",
+    "sha256": "52bfac33b75071b0664d7d2f87e163f75920abe027d9857b91d0535b69b43e22",
+    "version": "V5"
+  },
+  "packaging_status": "PUBLIC_RELEASE_CANDIDATE_FINAL",
+  "public_documentation_language": "English",
+  "publication_fields_pending": [
+    "repository URL",
+    "first GitHub Actions green matrix",
+    "DOI/Zenodo optional"
+  ],
+  "release": "Northern Crown MWPD v0.4.0",
+  "release_replay_qa": {
+    "AbacusSummit_base_c000_ph020_z0.500_historical_input": "PASS 165412 -> 11790; exact candidate membership",
+    "Abacus_live_official_server": "PASS 398865558 -> 165412 -> 11790; exact membership; run1/run2 byte-identical",
+    "TNG300-2_snapshot99_historical_input": "PASS 25126 -> 2045; exact candidate membership",
+    "TNG_live_official_server": "PASS 2605111 -> 25126 -> 2045; exact membership; run1/run2 byte-identical",
+    "tested_wheel_sha256": "20f293177371de245b7fc2fa8f0707097e8e4f8a4609fb49aa212da73b27aac8"
+  },
+  "science_payload": "Northern Crown v0.4-RC1 frozen",
+  "science_status": "V04_RC1_VALIDATED_ON_PREREGISTERED_ABACUS_BATCH6",
+  "supplementary_validation": {
+    "TNG_Batch6": "6/6 computational PASS"
+  },
+  "validated_detector_variant": "D"
+}

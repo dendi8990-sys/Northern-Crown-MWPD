@@ -1,0 +1,21 @@
+# Publish checklist
+
+- [x] Frozen v0.4-RC1 science bytes copied byte-for-byte.
+- [x] Frozen SHA-256 verifier.
+- [x] BSD-3-Clause LICENSE.
+- [x] README + Quick Start.
+- [x] METHOD / VALIDATION / REPRODUCIBILITY / INPUT_OUTPUT_SCHEMA / PARAMETERS / LIMITATIONS / TROUBLESHOOTING.
+- [x] Compact validation evidence records.
+- [x] PERSIST01 and TRUTH03A negative-result preservation.
+- [x] Deterministic synthetic example.
+- [x] Tests for determinism, permutation invariance, failure paths, null calibration, resume and E2E.
+- [x] GitHub Actions workflow.
+- [x] Wheel build verified locally.
+- [x] Historical official-input replay: TNG300-2 25,126→2,045 and Abacus ph020 165,412→11,790 candidate membership reproduced.
+- [x] Manual live official-server replay on one Abacus and one TNG target: PASS/PASS; compact receipts preserved.
+- [x] Named authorship: Vlad; AI assistance acknowledged separately.
+- [x] Public-facing repository language: English.
+- [ ] Set final GitHub repository URL after repository creation.
+- [ ] Run first GitHub Actions matrix and require green CI.
+- [ ] Tag `v0.4.0` and publish GitHub Release.
+- [ ] Optional: archive GitHub release in Zenodo and add DOI.

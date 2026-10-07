@@ -1,0 +1,8 @@
+=== Northern Crown acceptance stage ===
+UTC: 2026-10-06T20:15:28Z
+Target: abacus
+Stage: DETECT_RUN2
+Command: python3 -m northern_crown.cli detect work/abacus/input.npz -o work/abacus/candidates_run2.json 
+---------------------------------------
+COMPLETE: 11790 candidates -> work/abacus/candidates_run2.json
+STAGE PASS: DETECT_RUN2

@@ -1,0 +1,26 @@
+{
+  "PASS": true,
+  "checks": {
+    "expected_candidate_count": true,
+    "expected_input_count": true,
+    "expected_membership_fingerprint": true,
+    "input_preparation_PASS": true,
+    "method_v0_4_RC1_run1": true,
+    "release_0_4_0_run1": true,
+    "release_0_4_0_run2": true,
+    "repeat_membership_identical": true,
+    "repeat_output_bytes_identical": true,
+    "variant_D_run1": true,
+    "variant_D_run2": true
+  },
+  "expected_candidate_count": 2045,
+  "expected_membership_fingerprint": "06ab8c8223a7a46e9a75a7a5f2264d3e67e38fcc58bb007636cf1af7f21142a5",
+  "interpretation": "engineering/reproducibility acceptance only; does not add a new scientific validation target",
+  "run1_candidate_count": 2045,
+  "run1_membership_fingerprint": "06ab8c8223a7a46e9a75a7a5f2264d3e67e38fcc58bb007636cf1af7f21142a5",
+  "run1_sha256": "994fa436376aa7fe37ee3a54cb75096e6518178cd7f67cf0ac7398f382cf6dbf",
+  "run2_candidate_count": 2045,
+  "run2_membership_fingerprint": "06ab8c8223a7a46e9a75a7a5f2264d3e67e38fcc58bb007636cf1af7f21142a5",
+  "run2_sha256": "994fa436376aa7fe37ee3a54cb75096e6518178cd7f67cf0ac7398f382cf6dbf",
+  "target": "tng"
+}

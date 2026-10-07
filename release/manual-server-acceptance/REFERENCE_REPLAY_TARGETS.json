@@ -1,0 +1,50 @@
+{
+  "abacus": {
+    "expected_candidate_count": 11790,
+    "expected_input_content_fingerprint": "4fafe32866a372580f327747ef157264e6934bd7d4318a0a14683b13d8d0b0c5",
+    "expected_input_count": 165412,
+    "expected_membership_fingerprint": "bb4116f6a0c52596aaef98d37ee142502a237941b42644c8b834de31f0095de3",
+    "historical_candidate_fingerprint": "5e6320839b3b6c4463a1697f56c2dfc1991a8a99343e277b95f12912681c83c7",
+    "historical_input_sha256": "18608ff9eb51911c6eda68abc40c1bb4e63ec0a3e119bd04ecbe6f04732493ea",
+    "live_acceptance": "PASS",
+    "live_input_npz_sha256": "0403b8b7ce66698ed93422f76ba7f413c658b07dfcf97d5ac4675d1773b96a81",
+    "live_output_sha256": "1c07f2e2511c66dd0eea572083a01b0a31cdfe683f2c23141927f19fc711888a",
+    "rate_denominator": 398911692,
+    "rate_numerator": 165096,
+    "redshift": 0.5,
+    "selection": "ID-only SplitMix64 Bernoulli threshold; stable final ID sort",
+    "selection_seed": 2910188166,
+    "simulation": "AbacusSummit_base_c000_ph020",
+    "source_fields": [
+      "id",
+      "x_L2com"
+    ],
+    "source_rows": 398865558,
+    "threshold_uint64": 7634480815350862
+  },
+  "input_content_fingerprint_algorithm": "NC_INPUT_CONTENT_V1: header + N + little-endian int64 IDs + little-endian float64 Nx3 X bytes",
+  "membership_fingerprint_algorithm": "NC_MEMBERSHIP_V1: numeric sort within each candidate; lexicographic sort of candidate rows; SHA-256 over LF-joined rows plus final LF",
+  "purpose": "engineering release replay only; not new scientific validation",
+  "release": "Northern Crown MWPD v0.4.0",
+  "tng": {
+    "dm_cut": 3951,
+    "expected_candidate_count": 2045,
+    "expected_input_content_fingerprint": "a431b040afc6bcd79c2e014dac229d08f0dd7914e8ac649057dd4d2925af6517",
+    "expected_input_count": 25126,
+    "expected_membership_fingerprint": "06ab8c8223a7a46e9a75a7a5f2264d3e67e38fcc58bb007636cf1af7f21142a5",
+    "historical_candidate_fingerprint": "c8ae53a61c8f24b06e5fd6b9bdf51b24e0fb868c820770ce3f0c14c1ba6b4625",
+    "historical_input_sha256": "6123980b9544ffe0785e98820aed4514a744fa8ef415a5fc4180a220c910418b",
+    "live_acceptance": "PASS",
+    "live_input_npz_sha256": "0d388906a9da0d1372b34236d559931c009d9dbcf32c003a9c61938fc98d96db",
+    "live_output_sha256": "994fa436376aa7fe37ee3a54cb75096e6518178cd7f67cf0ac7398f382cf6dbf",
+    "raw_fof_groups": 2605111,
+    "selection": "all FoF groups with GroupLenType[:,1] >= 3951, canonical global FoF ID order",
+    "simulation": "TNG300-2 (historical internal label L205n1250TNG)",
+    "snapshot": 99,
+    "source_fields": [
+      "GroupLenType",
+      "GroupPos"
+    ]
+  },
+  "validated_detector_variant": "D"
+}

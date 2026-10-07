@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use Northern Crown MWPD, please cite this software release and the validation record shipped with it."
+title: "Northern Crown MWPD"
+type: software
+version: 0.4.0
+authors:
+  - name: "Vlad"
+license: BSD-3-Clause
+abstract: >-
+  Validated multiscale persistent spatial-structure detector packaged from the
+  frozen Northern Crown v0.4-RC1 scientific payload. Validation scope and claim
+  boundaries are documented in docs/VALIDATION.md and docs/KNOWN_LIMITATIONS.md.
+keywords:
+  - spatial structures
+  - persistent structures
+  - 3-D catalogues
+  - reproducible research software

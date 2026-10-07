@@ -1,0 +1,22 @@
+{
+  "PASS": true,
+  "checks": {
+    "coordinate_range": true,
+    "finite_X": true,
+    "input_content_fingerprint": true,
+    "input_count": true,
+    "path_guard": true,
+    "raw_valid_rows": true,
+    "unique_ids": true
+  },
+  "expected_input_content_fingerprint": "4fafe32866a372580f327747ef157264e6934bd7d4318a0a14683b13d8d0b0c5",
+  "input_content_fingerprint": "4fafe32866a372580f327747ef157264e6934bd7d4318a0a14683b13d8d0b0c5",
+  "input_count": 165412,
+  "input_npz_sha256": "0403b8b7ce66698ed93422f76ba7f413c658b07dfcf97d5ac4675d1773b96a81",
+  "raw_valid_rows": 398865558,
+  "selection_seed": 2910188166,
+  "source_dir": "/home/jovyan/AbacusSummit/AbacusSummit_base_c000_ph020/halos/z0.500/halo_info",
+  "source_files": 34,
+  "target": "abacus",
+  "threshold_uint64": 7634480815350862
+}

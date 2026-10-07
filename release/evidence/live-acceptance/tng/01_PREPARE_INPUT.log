@@ -1,0 +1,39 @@
+=== Northern Crown acceptance stage ===
+UTC: 2026-10-06T23:09:05Z
+Target: tng
+Stage: PREPARE_INPUT
+Command: python3 scripts/prepare_tng.py --source-dir /home/tnguser/sims.TNG/L205n1250TNG/output/groups_099 --out work/tng/input.npz --receipt work/tng/INPUT_RECEIPT.json 
+---------------------------------------
+TNG PREP 20/100 raw=130,879 eligible=25,126
+TNG PREP 40/100 raw=750,079 eligible=25,126
+TNG PREP 60/100 raw=1,369,111 eligible=25,126
+TNG PREP 80/100 raw=1,987,111 eligible=25,126
+TNG PREP 100/100 raw=2,605,111 eligible=25,126
+{
+  "BoxSize": 205000.0,
+  "PASS": true,
+  "checks": {
+    "boxsize": true,
+    "chunk_count_matches_header": true,
+    "coordinate_range": true,
+    "finite_X": true,
+    "header_total": true,
+    "input_content_fingerprint": true,
+    "input_count": true,
+    "path_or_snapshot_guard": true,
+    "raw_fof_groups": true,
+    "redshift": true,
+    "unique_ids": true
+  },
+  "expected_input_content_fingerprint": "a431b040afc6bcd79c2e014dac229d08f0dd7914e8ac649057dd4d2925af6517",
+  "header_total": 2605111,
+  "input_content_fingerprint": "a431b040afc6bcd79c2e014dac229d08f0dd7914e8ac649057dd4d2925af6517",
+  "input_count": 25126,
+  "input_npz_sha256": "0d388906a9da0d1372b34236d559931c009d9dbcf32c003a9c61938fc98d96db",
+  "raw_fof_groups": 2605111,
+  "redshift": 2.220446049250313e-16,
+  "source_dir": "/home/tnguser/sims.TNG/L205n1250TNG/output/groups_099",
+  "source_files": 100,
+  "target": "tng"
+}
+STAGE PASS: PREPARE_INPUT

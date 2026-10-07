@@ -1,0 +1,8 @@
+=== Northern Crown acceptance stage ===
+UTC: 2026-10-06T23:14:54Z
+Target: tng
+Stage: DETECT_RUN2
+Command: python3 -m northern_crown.cli detect work/tng/input.npz -o work/tng/candidates_run2.json 
+---------------------------------------
+COMPLETE: 2045 candidates -> work/tng/candidates_run2.json
+STAGE PASS: DETECT_RUN2
